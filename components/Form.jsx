@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-function Form({type, submitting, post, setPost, handleSumbit}) {
+function Form({type, submitting, post, setPost, handleSubmit}) {
     return (
        <section className="w-full max-w-full flex-start flex-col">
         <h1 className="head_text text-left">
@@ -10,7 +10,7 @@ function Form({type, submitting, post, setPost, handleSumbit}) {
                  imagination run wild with any AI-powered platform</p>
 
             <form className="mt-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism"
-            onSubmit={handleSumbit}>
+            onSubmit={handleSubmit}>
                 <label>
                     <span className="font-satoshi font-semibold text-base text-gray-700">
                         Your AI Prompt

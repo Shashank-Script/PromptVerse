@@ -55,7 +55,7 @@ function EditPrompt() {
          submitting={submitting}
          post={post}
          setPost={setPost}
-         handleSumbit={UpdatePrompt}
+         handleSubmit={UpdatePrompt}
          />
     )
 }
